@@ -2,6 +2,7 @@ import { lazy, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ROUTES } from "constants/routes";
+import { LoadingSpinner } from "components/Spinner";
 
 import "./index.css";
 
@@ -11,7 +12,7 @@ const Play = lazy(() => import("pages/Play"));
 
 const App = () => (
   <BrowserRouter>
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<LoadingSpinner />}>
       <Routes>
         <Route path={ROUTES.TOP} element={<Home />} />
         <Route path={ROUTES.HOWTOPLAY} element={<HowToPlay />} />

@@ -8,9 +8,10 @@ module.exports = {
       },
       colors: {
         background: "#10032B",
+        accent: "#CB2BF3",
       },
     },
   },
   plugins: [],
 };
-``
+``;
