@@ -1,6 +1,6 @@
 const HowToPlay = () => {
   return (
-    <div>
+    <div className='h-screen bg-background'>
       <h1>this is how to play</h1>
     </div>
   );

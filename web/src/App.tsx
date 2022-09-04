@@ -1,8 +1,9 @@
 import { lazy, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 import { ROUTES } from "constants/routes";
+
+import "./index.css";
 
 const Home = lazy(() => import("pages/Home"));
 const HowToPlay = lazy(() => import("pages/HowToPlay"));
