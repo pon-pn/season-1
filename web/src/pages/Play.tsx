@@ -1,4 +1,6 @@
+import { Button } from "components/Button";
 import { Navbar } from "components/Navbar";
+import { WordInput } from "components/WordInput";
 
 const Play = () => {
   return (
@@ -12,8 +14,8 @@ const Play = () => {
         </div>
         <img src='public/images/arrow.png' alt='arrow' />
         <div>
-          {/* TODO: 「」の中は動的に変える */}
-          <input placeholder='「ご」につづく単語を入れよう'></input>
+          <WordInput />
+          <Button />
         </div>
       </div>
     </>
