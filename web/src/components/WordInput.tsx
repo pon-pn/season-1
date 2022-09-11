@@ -8,7 +8,7 @@ export const WordInput = ({ inputElement }: Props) => {
       <input
         ref={inputElement}
         type='text'
-        className='h-20 border-b-2 border-transparent border-b-accent bg-transparent px-4 font-nico text-xl focus:border-accent focus:ring-0 md:w-96'
+        className='h-20 w-80 border-b-2 border-transparent border-b-accent bg-transparent px-4 font-nico text-xl focus:border-accent focus:ring-0 md:w-96'
         placeholder='「ご」につづく単語を入れよう!'
       ></input>
     </div>
