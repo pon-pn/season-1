@@ -13,11 +13,11 @@ export const Navbar = () => {
           </a>
           <div className="px-4">
             <ul className="flex flex-col lg:flex-row list-none ml-auto">
-              <li className="nav-item">
-                <a className="px-10 py-2 flex items-center leading-snug text-white hover:opacity-75">説明</a>
+              <li>
+                <a className="px-10 py-2 flex items-center text-white hover:opacity-75">説明</a>
               </li>
               <li>
-                <a className="px-10 py-2 flex items-center leading-snug text-white hover:opacity-75">参加する</a>
+                <a className="px-10 py-2 flex items-center text-white hover:opacity-75">参加する</a>
               </li>
             </ul>
           </div>
