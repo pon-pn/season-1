@@ -14,7 +14,7 @@ export const Navbar = () => {
           <div>
             <ul className="flex lg:flex-row list-none ml-auto">
               <li>
-                <a className="flex w-40 px-9 py-2 items-center text-white hover:opacity-75" href="description/">説明</a>
+                <a className="flex w-40 px-9 py-2 items-center text-white hover:opacity-75" href="/">説明</a>
               </li>
               <li>
                 <a className="flex w-40 px-9 py-2 items-center text-white hover:opacity-75">参加する</a>
